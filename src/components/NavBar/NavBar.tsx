@@ -38,7 +38,7 @@ const NavBar = () => {
           {navOptions.map((option) => (
             <div key={option.id}>
               <a
-              href='#skill'
+              href= {option.href}
                 className="text-black hover:text-gray-500 cursor-pointer"
               >
                 {option.name}

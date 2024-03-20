@@ -20,11 +20,11 @@ import lightIcon7 from "../assets/light-icons/nodejs.svg"
 import lightIcon8 from "../assets/light-icons/mongodb.svg"
 
 export const navOptions = [
-    { id: 1, name: "Skills" },
-    { id: 2, name: "Experience" },
-    { id: 3, name: "About" },
-    { id: 4, name: "Projects" },
-    { id: 5, name: "Contact" },
+    { id: 1, name: "Skills" , href:'skills' },
+    { id: 2, name: "Experience", href:'experience' },
+    { id: 3, name: "About", href:'about' },
+    { id: 4, name: "Projects", href:'projects' },
+    { id: 5, name: "Contact", href:'contact' },
 ];
 
 export const skillsOptions = [
