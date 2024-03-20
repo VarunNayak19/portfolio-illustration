@@ -18,6 +18,11 @@ import lightIcon5 from "../assets/light-icons/nextjs2.svg"
 import lightIcon6 from "../assets/light-icons/git.svg"
 import lightIcon7 from "../assets/light-icons/nodejs.svg"
 import lightIcon8 from "../assets/light-icons/mongodb.svg"
+import lightIcon9 from "../assets/light-icons/js.svg"
+import lightIcon10 from "../assets/light-icons/typescript.svg"
+import lightIcon11 from "../assets/light-icons/materialui.svg"
+import lightIcon12 from "../assets/light-icons/headlessui.svg"
+
 
 export const navOptions = [
     { id: 1, name: "Skills" , href:'skills' },
@@ -36,6 +41,10 @@ export const skillsOptions = [
     { id: 6, name: "Git", src: icon6 },
     { id: 7, name: "NodeJS", src: icon7 },
     { id: 8, name: "MongoDB", src: icon8 },
+    { id: 9, name: "MongoDB", src: icon8 },
+    { id: 10, name: "MongoDB", src: icon8 },
+    { id: 11, name: "MongoDB", src: icon8 },
+    { id: 12, name: "MongoDB", src: icon8 },
 ];
 
 export const skillsOptionsLightColor = [
@@ -47,6 +56,10 @@ export const skillsOptionsLightColor = [
     { id: 6, name: "Git", src: lightIcon6 },
     { id: 7, name: "NodeJS", src: lightIcon7 },
     { id: 8, name: "MongoDB", src: lightIcon8 },
+    { id: 9, name: "JavaScript", src: lightIcon9 },
+    { id: 10, name: "TypeScript", src: lightIcon10 },
+    { id: 11, name: "Material UI", src: lightIcon11 },
+    { id: 12, name: "Headless UI", src: lightIcon12 },
 ]
 
 export const experienceOptions = [

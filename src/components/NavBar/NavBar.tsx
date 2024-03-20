@@ -27,6 +27,7 @@ const NavBar = () => {
   //handle hamburger 
 
   const [isOpen, setIsOpen] = useState(false);
+  
 
   return (
     <>
@@ -72,19 +73,20 @@ const NavBar = () => {
               leave="transition ease-in duration-75"
               leaveFrom="transform opacity-100 scale-100"
               leaveTo="transform opacity-0 scale-95"
+              afterLeave={() => {setIsOpen(false)}}
             >
               <Menu.Items className="absolute right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none">
                 <div className="px-1 py-1 ">
                   {navOptions.map((item) => (
-                    <Menu.Item key={item.id}>
+                    <Menu.Item key={item.id} >
                       {({ active }) => (
-                        <button
+                        <a href={`#${item.href}`}
                           className={`${active ? 'bg-gray-100' : ''
-                            } block w-full text-left px-4 py-2 my-1 text-sm text-gray-200`}
+                            } block w-full text-left px-4 py-2 my-1 text-sm text-gray-700`}
                             onClick={() => {setIsOpen(false)}}
                         >
                           {item.name}
-                        </button>
+                        </a>
                       )}
                     </Menu.Item>
                   ))}
