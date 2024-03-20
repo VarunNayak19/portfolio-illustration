@@ -6,7 +6,7 @@ const About = () => {
     //use theme
     const { isDarkMode } = useTheme();
     return (
-        <div className={`pb-6 about-me-container flex md:flex-row flex-col md:gap-20 gap-8 md:px-20 px-4  lg:pt-24 pt-28 ${isDarkMode ? 'text-white' : 'text-black'}`}>
+        <div id='about' className={`pb-6 about-me-container flex md:flex-row flex-col md:gap-20 gap-8 md:px-20 px-4  lg:pt-24 pt-28 ${isDarkMode ? 'text-white' : 'text-black'}`}>
             <div className={`image-section md:w-2/5 w-full h-auto ${isDarkMode ? 'inverted-css' : ''}`}>
                 <Image src={bannerImage} className='w-full h-auto' />
             </div>

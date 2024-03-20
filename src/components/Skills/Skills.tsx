@@ -6,7 +6,7 @@ const Skills = () => {
       //use theme
   const { isDarkMode } = useTheme();
   return (
-    <div  id='skill' className={`skills-container w-full h-auto lg:pt-24 pt-28 md:px-20 px-4 ${isDarkMode ? 'bg-black': 'bg-white'}`}>
+    <div  id='skills' className={`skills-container w-full h-auto lg:pt-24 pt-28 md:px-20 px-4 ${isDarkMode ? 'bg-black': 'bg-white'}`}>
         <div className={`title-section w-full h-auto  mb-16 ${isDarkMode ? 'text-white':'text-black'}`}>
             <span className='w-70 h-56 font-sora font-normal  xs:text-[48px] text-4xl leading-56 tracking-tighter flex-none order-0'>My </span>
             <span className='w-70 h-56 font-sora font-bold  xs:text-[48px] text-4xl leading-56 tracking-tighter flex-none order-0'>Skills</span>

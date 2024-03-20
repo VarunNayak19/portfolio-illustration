@@ -7,7 +7,7 @@ const Experience = () => {
     //use theme
     const { isDarkMode } = useTheme();
     return (
-        <div id='e' className={`w-full h-auto md:px-20 px-4 lg:pt-24 pt-28`}>
+        <div id='experience' className={`w-full h-auto md:px-20 px-4 lg:pt-24 pt-28`}>
             <div className={`title-section w-full h-auto m-auto mb-8 ${isDarkMode ? 'text-white' : 'text-black'}`}>
                 <span className='w-70 h-56 font-sora font-normal  xs:text-[48px] text-4xl leading-56 tracking-tighter flex-none order-0'>My </span>
                 <span className='w-70 h-56 font-sora font-bold  xs:text-[48px] text-4xl leading-56 tracking-tighter flex-none order-0'>Experience</span>
