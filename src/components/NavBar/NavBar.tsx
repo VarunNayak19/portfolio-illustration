@@ -27,6 +27,7 @@ const NavBar = () => {
   //handle hamburger 
 
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
       <div className={`z-10 hidden lg:flex navbar-container w-full max-w-[1440px] m-auto h-auto justify-between items-center px-20 py-6 fixed top-0  bg-white ${isDarkMode ? 'inverted-css': ''} `}>
@@ -79,7 +80,7 @@ const NavBar = () => {
                       {({ active }) => (
                         <button
                           className={`${active ? 'bg-gray-100' : ''
-                            } block w-full text-left px-4 py-2 my-1 text-sm text-gray-700`}
+                            } block w-full text-left px-4 py-2 my-1 text-sm text-gray-200`}
                             onClick={() => {setIsOpen(false)}}
                         >
                           {item.name}
