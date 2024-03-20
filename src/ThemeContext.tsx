@@ -1,5 +1,4 @@
-// ThemeContext.tsx
-import React, { createContext, useContext, useState, FC } from 'react';
+import React, { createContext, useContext, useState, ReactNode } from 'react';
 
 interface ThemeContextType {
   isDarkMode: boolean;
@@ -8,7 +7,7 @@ interface ThemeContextType {
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
-export const ThemeProvider: FC = ({ children }) => {
+export const ThemeProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
 
   const toggleDarkMode = () => {
@@ -17,9 +16,8 @@ export const ThemeProvider: FC = ({ children }) => {
 
   return (
     <ThemeContext.Provider value={{ isDarkMode, toggleDarkMode }}>
-    {children}
+      {children}
     </ThemeContext.Provider>
-
   );
 };
 
