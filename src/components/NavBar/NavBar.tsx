@@ -18,6 +18,7 @@ const NavBar = () => {
   const downloadResume = () => {
     const link = document.createElement('a');
     link.href = resumePdf;
+    link.target = '_blank';
     link.download = 'resume.pdf'; // Specify the desired name for the downloaded file
     document.body.appendChild(link);
     link.click();
