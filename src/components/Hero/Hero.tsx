@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from '../Image/Image'
 import Banner from "../../assets/Banner.svg"
 import { useTheme } from '../../ThemeContext';

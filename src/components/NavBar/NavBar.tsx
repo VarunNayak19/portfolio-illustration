@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react'
+import { useState, Fragment } from 'react'
 import dp from "../../assets/dp-img.jpeg"
 import Image from '../Image/Image';
 import download from "../../assets/download.svg"
@@ -6,7 +6,7 @@ import { navOptions } from '../../constants/constant';
 import Button from '../Button/Button';
 import resumePdf from "../../assets/VARUN_NAYAK_RESUME (3).pdf";
 import Hamburger from 'hamburger-react'
-import { Menu, Switch, Transition } from '@headlessui/react';
+import { Menu, Transition } from '@headlessui/react';
 import { useTheme } from '../../ThemeContext';
 import ToggleDarkMode from '../ToggleDarkMode/ToggleDarkMode';
 

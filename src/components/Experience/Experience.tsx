@@ -1,4 +1,3 @@
-import React from 'react'
 import { useTheme } from '../../ThemeContext';
 import { experienceOptions } from '../../constants/constant';
 import Image from '../Image/Image';
@@ -7,7 +6,6 @@ const Experience = () => {
 
     //use theme
     const { isDarkMode } = useTheme();
-    const dummy = [1, 2, 3, 4, 5];
     return (
         <div id='e' className={`w-full h-auto md:px-20 px-4 lg:pt-24 pt-28`}>
             <div className={`title-section w-full h-auto m-auto mb-8 ${isDarkMode ? 'text-white' : 'text-black'}`}>

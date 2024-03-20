@@ -1,5 +1,4 @@
-import React from 'react'
-import { skillsOptions, skillsOptionsLightColor } from '../../constants/constant'
+import { skillsOptionsLightColor } from '../../constants/constant'
 import Image from '../Image/Image'
 import { useTheme } from '../../ThemeContext';
 const Skills = () => {
