@@ -33,7 +33,7 @@ const NavBar = () => {
   return (
     <>
       <div className={`z-10 hidden lg:flex navbar-container w-full max-w-[1440px] m-auto h-auto justify-between items-center px-20 py-6 fixed top-0  bg-white ${isDarkMode ? 'inverted-css': ''} `}>
-        <div className="left-logo-section flex gap-3 justify-between items-center">
+        <div onClick={() => {window.scrollTo(0,0)}} className="left-logo-section cursor-pointer flex gap-3 justify-between items-center">
           <Image src={dp} className={`w-10 h-10 rounded-full ${isDarkMode ? 'inverted-css': ''}`} />
           <span className='font-bold text-black text-20 leading-24'>Varun Nayak</span>
         </div>

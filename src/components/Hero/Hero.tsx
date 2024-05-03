@@ -6,7 +6,7 @@ const Hero = () => {
       //use theme
   const { isDarkMode } = useTheme();
   return (
-    <div className={` w-full md:min-h-screen h-auto lg:pt-24 pt-28 relative bg-white ${isDarkMode ? 'inverted-css': ''}`}>
+    <div id="" className={` w-full md:min-h-screen h-auto lg:pt-24 pt-28 relative bg-white ${isDarkMode ? 'inverted-css': ''}`}>
         <Image src={Banner} className='md:absolute relative md:right-6 md:bottom-6 lg:w-[600px] md:w-[500px] w-[80%] m-auto h-auto ' />
         <div className="content-section w-auto h-auto lg:mt-[150px] md:mt-0 mt-[48px] md:px-20 px-4">
             <div className='title-box gap-2 flex flex-col justify-start items-start'>

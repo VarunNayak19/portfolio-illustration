@@ -23,6 +23,12 @@ import lightIcon10 from "../assets/light-icons/typescript.svg"
 import lightIcon11 from "../assets/light-icons/materialui.svg"
 import lightIcon12 from "../assets/light-icons/headlessui.svg"
 
+import utimf from "../assets/utimf.png"
+import nike from "../assets/nike.jpg"
+import roomtoread from '../assets/room-to-read-png.png'
+import virtuallearn from '../assets/virtual_learn.svg'
+import tasty from '../assets/tast.svg'
+import carhub from '../assets/carlogo.svg'
 
 export const navOptions = [
     { id: 1, name: "Skills" , href:'skills' },
@@ -102,4 +108,73 @@ export const aboutMe = [
         id: 3,
         content: "In summary, I am a driven Software Engineer with a passion for innovation and continuous learning. Through my expertise in frontend development and a diverse range of interests, including creative pursuits and sports, I bring a well-rounded perspective to every endeavor. With a commitment to excellence and a thirst for growth, I am ready to make impactful contributions to collaborative projects, driven by a desire to leave a lasting mark in both technology and life."
     }
+]
+
+export const projectData = [
+    {
+        id:'01',
+        github: '',
+        deploy: '',
+        githubFlag: false,
+        deployFlag: false,
+        title: 'UTI Mutual Funds',
+        description: ' Contributed in the development of the UTI Mutual Fund website using Angular and SCSS. UTI AMC is one of the largest asset managers in the country with a total Asset Under Management of INR 15.56 lakh crore and the investment manager to UTI Mutual Fund schemes.',
+        image:utimf,
+        className:''
+    },
+    {
+        id:'02',
+        github: 'https://github.com/VarunNayak19/nikeoffice',
+        deploy: 'https://nikestores.netlify.app/',
+        githubFlag: true,
+        deployFlag: true,
+        title: 'Nike Clone Website',
+        description: 'Developed a Nike-inspired e-commerce website using React.js and Tailwind CSS, implementing Redux for state management and CRUD methods for seamless cart functionality. Utilized dummy data to replicate real-world scenarios',
+        image:nike,
+        className:''
+    },
+    {
+        id:'03',
+        github: '',
+        deploy: '',
+        githubFlag: false,
+        deployFlag: false,
+        title: 'Room to Read',
+        description: 'Contributed in the development of the Room to Read Website using React.js and SCSS. Room to Read is a global non-profit organization headquartered in San Francisco, California. The organization focuses on working in collaboration with local communities, partner organizations and governments to improve literacy and gender equality in education.',
+        image:roomtoread,
+        className:'md:p-0 sm:py-24 py-20 bg-white'
+    },
+    {
+        id:'04',
+        github: '',
+        deploy: '',
+        githubFlag: false,
+        deployFlag: false,
+        title: 'Virtual Learn - E learning website',
+        description: 'Created a dynamic virtual learning e-learning website using ReactJS, combining interactive user interfaces with CSS for a visually engaging online learning experience. Collaborated with a cross-functional team to successfully deliver this cutting-edge educational platform.',
+        image:virtuallearn,
+        className:'md:p-0 sm:py-24 py-20 bg-[#092963]'
+    },
+    {
+        id:'05',
+        github: '',
+        deploy: 'https://tastytrailhotel.netlify.app/',
+        githubFlag: false,
+        deployFlag: true,
+        title: 'Restaurant Website',
+        description: 'Created a dynamic restaurant website featuring restaurant details, menu listings, and a table booking system. Developed using React.js for the frontend, SCSS for styling, and Node.js with Express and MongoDB for backend functionality. Implemented a table booking feature to enhance user experience and streamline reservation management.',
+        image:tasty,
+        className:'p-16 bg-white'
+    },
+    {
+        id:'06',
+        github: '',
+        deploy: 'https://tastytrailhotel.netlify.app/',
+        githubFlag: false,
+        deployFlag: true,
+        title: 'CarHub - Next.js Car Rental Service',
+        description: 'Developed CarHub, a comprehensive car rental service website utilizing Next.js framework for efficient server-side rendering and seamless user experience. Leveraged open-source APIs for extensive car listing, ensuring a wide range of options for users. Implemented intuitive booking and confirmation features using Node.js, integrating Nodemailer for streamlined communication with users.',
+        image:carhub,
+        className:'bg-white p-8 sm:py-48 py-36 md:py-0'
+    },
 ]

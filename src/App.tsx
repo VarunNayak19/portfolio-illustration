@@ -6,6 +6,7 @@ import { useTheme } from './ThemeContext';
 import Skills from './components/Skills/Skills';
 import Experience from './components/Experience/Experience';
 import About from './components/About/About';
+import Projects from './components/Projects/Projects';
 
 function App() {
       //use theme
@@ -18,6 +19,7 @@ function App() {
         <Skills />
         <Experience />
         <About />
+        <Projects />
     </div>
   )
 }
