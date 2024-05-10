@@ -53,20 +53,39 @@ export const skillsOptions = [
     { id: 12, name: "MongoDB", src: icon8 },
 ];
 
+// export const skillsOptionsLightColor = [
+//     { id: 1, name: "ReactJS", src: lightIcon1, isFlipped: false },
+//     { id: 2, name: "Angular", src: lightIcon2, isFlipped: false  },
+//     { id: 3, name: "SASS/SCSS", src: lightIcon3, isFlipped: false  },
+//     { id: 4, name: "Tailwind CSS", src: lightIcon4, isFlipped: false  },
+//     { id: 5, name: "NextJS", src: lightIcon5, isFlipped: false  },
+//     { id: 6, name: "Git", src: lightIcon6, isFlipped: false  },
+//     { id: 7, name: "NodeJS", src: lightIcon7, isFlipped: false  },
+//     { id: 8, name: "MongoDB", src: lightIcon8, isFlipped: false  },
+//     { id: 9, name: "JavaScript", src: lightIcon9, isFlipped: false  },
+//     { id: 10, name: "TypeScript", src: lightIcon10, isFlipped: false  },
+//     { id: 11, name: "Material UI", src: lightIcon11, isFlipped: false  },
+//     { id: 12, name: "Headless UI", src: lightIcon12, isFlipped: false  },
+// ]
+
 export const skillsOptionsLightColor = [
-    { id: 1, name: "ReactJS", src: lightIcon1 },
-    { id: 2, name: "Angular", src: lightIcon2 },
-    { id: 3, name: "SASS/SCSS", src: lightIcon3 },
-    { id: 4, name: "Tailwind CSS", src: lightIcon4 },
-    { id: 5, name: "NextJS", src: lightIcon5 },
-    { id: 6, name: "Git", src: lightIcon6 },
-    { id: 7, name: "NodeJS", src: lightIcon7 },
-    { id: 8, name: "MongoDB", src: lightIcon8 },
-    { id: 9, name: "JavaScript", src: lightIcon9 },
-    { id: 10, name: "TypeScript", src: lightIcon10 },
-    { id: 11, name: "Material UI", src: lightIcon11 },
-    { id: 12, name: "Headless UI", src: lightIcon12 },
-]
+    { id: 1, name: "ReactJS", src: lightIcon1, isFlipped: false, description: "A JavaScript library for building user interfaces.", link: "https://reactjs.org/" },
+    { id: 2, name: "Angular", src: lightIcon2, isFlipped: false, description: "A TypeScript-based web application framework.", link: "https://angular.io/" },
+    { id: 3, name: "SASS/SCSS", src: lightIcon3, isFlipped: false, description: "A preprocessor scripting language for CSS.", link: "https://sass-lang.com/" },
+    { id: 4, name: "Tailwind CSS", src: lightIcon4, isFlipped: false, description: "A utility-first CSS framework for custom designs.", link: "https://tailwindcss.com/" },
+    { id: 5, name: "NextJS", src: lightIcon5, isFlipped: false, description: "A React framework for server-side rendering.", link: "https://nextjs.org/" },
+    { id: 6, name: "Git", src: lightIcon6, isFlipped: false, description: "A distributed version control system.", link: "https://git-scm.com/" },
+    { id: 7, name: "NodeJS", src: lightIcon7, isFlipped: false, description: "A JavaScript runtime for server-side scripting.", link: "https://nodejs.org/" },
+    { id: 8, name: "MongoDB", src: lightIcon8, isFlipped: false, description: "A NoSQL database program using JSON-like documents.", link: "https://www.mongodb.com/" },
+    { id: 9, name: "JavaScript", src: lightIcon9, isFlipped: false, description: "A high-level programming language for web development.", link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+    { id: 10, name: "TypeScript", src: lightIcon10, isFlipped: false, description: "A superset of JavaScript adding static type definitions.", link: "https://www.typescriptlang.org/" },
+    { id: 11, name: "Material UI", src: lightIcon11, isFlipped: false, description: "A React UI framework implementing Material Design.", link: "https://mui.com/" },
+    { id: 12, name: "Headless UI", src: lightIcon12, isFlipped: false, description: "Unstyled, accessible UI components for Tailwind CSS.", link: "https://headlessui.dev/" }
+];
+
+
+
+
 
 export const experienceOptions = [
     {
